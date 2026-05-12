@@ -1,0 +1,33 @@
+# R history and data files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# RStudio project files
+.Rproj.user/
+*.Rproj
+
+# R session and environment
+.Renviron
+.Rprofile
+
+# Cache and temp
+.cache/
+*.log
+*.tmp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Outputs — keep code reproducible; regenerate locally
+outputs/*
+!outputs/.gitkeep
+
+# Sensitive raw data — keep the template in version control, ignore live datasets
+data/data.csv
+data/*.xlsx
+
+# Shiny rsconnect deployment artefacts
+shiny/rsconnect/
