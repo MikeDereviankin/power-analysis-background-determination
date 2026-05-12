@@ -1,5 +1,7 @@
 # Power Analysis for Background Determination of Metals in Environmental Forensics
 
+![Alt text](banner.png)
+
 A reproducible R workflow for evaluating the **statistical power** of two-sample comparisons (site vs. background) on an analyte-by-analyte basis. The workflow is designed to support defensible background determinations of metals in soil under regulatory and forensic scrutiny, where a non-significant Wilcoxon test result must be backed by a demonstration that the test actually had a fair chance of detecting a real difference.
 
 ---
